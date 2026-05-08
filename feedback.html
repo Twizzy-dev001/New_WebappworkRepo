@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <div class="topnav">
+        <a href="./">Home</a>  
+        <a href="about.html">About Us</a>
+        <a href="projects.html">Our Projects</a>
+        <a href="products.html">Our Products</a>
+        <a href="contacts.html">Contact Us</a>
+        <a href="feedback.html">Feedback</a>
+
+    </div>
+    <div class="banner">
+        <h1>Feedback</h1>
+    </div>
+    <div class="row">
+        <div class="content">
+                <h2>Feedback</h2>
+
+    <form action="submit_feedback.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required  ><br><br>
+
+        <label for="Browse">Browse:</label><br>
+        <input type="file" id="Browse" name="Browse" required><br><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+        
+        
+        
+     <select id=" " name="" required>
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option><br><br>
+
+           
+
+                <input type="submit" value="Submit Feedback">
+
+          
+        
+    </body>
+    </html>
